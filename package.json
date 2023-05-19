@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "gulp dev",
 		"build": "gulp build",
-		"roll": "gulp build; git add --all; git commit -m 'updated'; git push"
+		"roll": "gulp build; git add --all; git commit -m 'updated'; git push origin main "
 	},
 	"author": "",
 	"license": "ISC",
