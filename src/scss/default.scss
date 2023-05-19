@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+
+:root,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+	background: green;
+	color: white;
+
+	#container{
+		//
+		height: 100%;
+
+		display: flex;
+		align-items: center;
+
+		button{
+			margin: auto;
+			padding: 10px 20px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+	}
+}

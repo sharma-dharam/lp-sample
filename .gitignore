@@ -1,7 +1,2 @@
-# Ignore everything
-/*
-
-# But not config files and build directory
-!/build
-!/amplify.yml
-!/.gitignore
+node_modules
+package-lock.json

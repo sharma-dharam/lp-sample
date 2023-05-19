@@ -1,0 +1,24 @@
+{
+	"name": "lp-sample",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"dev": "gulp dev",
+		"build": "gulp build",
+		"roll": "gulp build; git add --all; git commit -m 'updated'; git push"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.29.3",
+		"gulp": "^4.0.2",
+		"gulp-cheerio": "^1.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^3.0.0",
+		"gulp-javascript-obfuscator": "^1.1.6",
+		"gulp-sass": "^5.1.0",
+		"gulp-uglify": "^3.0.2",
+		"sass": "^1.62.1"
+	}
+}
